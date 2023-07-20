@@ -251,3 +251,38 @@ Consider defining a bean named 'auditorAwareMethod' in your configuration.
 2023-07-20T20:02:19.689+03:00  INFO 13360 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-07-20T20:02:19.691+03:00  INFO 13360 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-07-20T20:02:19.693+03:00  INFO 13360 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-20T20:02:26.216+03:00  INFO 27352 --- [main] c.h.KodlamaAtolyesi1Application          : Starting KodlamaAtolyesi1Application using Java 17.0.5 with PID 27352 (D:\spring\kodlama_atolyesi_1\target\classes started by 90553 in D:\spring\kodlama_atolyesi_1)
+2023-07-20T20:02:26.217+03:00  INFO 27352 --- [main] c.h.KodlamaAtolyesi1Application          : The following 1 profile is active: "frontend"
+2023-07-20T20:02:27.184+03:00  INFO 27352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-20T20:02:27.204+03:00  INFO 27352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2023-07-20T20:02:27.723+03:00  INFO 27352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2023-07-20T20:02:27.731+03:00  INFO 27352 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-20T20:02:27.732+03:00  INFO 27352 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-20T20:02:27.830+03:00  INFO 27352 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-20T20:02:27.830+03:00  INFO 27352 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1573 ms
+2023-07-20T20:02:27.915+03:00  INFO 27352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-20T20:02:28.116+03:00  INFO 27352 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-07-20T20:02:28.118+03:00  INFO 27352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-20T20:02:28.127+03:00  INFO 27352 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-07-20T20:02:28.158+03:00 DEBUG 27352 --- [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2023-07-20T20:02:28.159+03:00 DEBUG 27352 --- [main] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-07-20T20:02:28.476+03:00  INFO 27352 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-20T20:02:30.104+03:00  INFO 27352 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-20T20:02:30.498+03:00  WARN 27352 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-20T20:02:30.822+03:00 DEBUG 27352 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-07-20T20:02:30.964+03:00  INFO 27352 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-20T20:02:31.129+03:00 DEBUG 27352 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2023-07-20T20:02:31.748+03:00 DEBUG 27352 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-07-20T20:02:31.756+03:00 DEBUG 27352 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-07-20T20:02:32.252+03:00  INFO 27352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2023-07-20T20:02:32.307+03:00  INFO 27352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5555 (http)
+2023-07-20T20:02:32.308+03:00  INFO 27352 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-20T20:02:32.308+03:00  INFO 27352 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-20T20:02:32.325+03:00  INFO 27352 --- [main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-07-20T20:02:32.325+03:00  INFO 27352 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 71 ms
+2023-07-20T20:02:32.333+03:00  INFO 27352 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/admin'
+2023-07-20T20:02:32.348+03:00 DEBUG 27352 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 1 mappings in 'requestMappingHandlerMapping'
+2023-07-20T20:02:32.629+03:00 DEBUG 27352 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-07-20T20:02:32.635+03:00 DEBUG 27352 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-07-20T20:02:32.641+03:00  INFO 27352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5555 (http) with context path ''
+2023-07-20T20:02:32.655+03:00  INFO 27352 --- [main] c.h.KodlamaAtolyesi1Application          : Started KodlamaAtolyesi1Application in 6.784 seconds (process running for 7.368)
