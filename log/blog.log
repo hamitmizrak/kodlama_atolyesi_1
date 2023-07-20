@@ -248,3 +248,6 @@ Consider defining a bean named 'auditorAwareMethod' in your configuration.
 2023-07-20T19:37:22.860+03:00 DEBUG 13360 --- [http-nio-4444-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
 2023-07-20T19:37:22.860+03:00 DEBUG 13360 --- [http-nio-4444-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"openapi":"3.0.1","info":{"title":"OpenAPI definition","version":"v0"},"servers":[{"url":"http://lo (truncated)..."]
 2023-07-20T19:37:22.861+03:00 DEBUG 13360 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-20T20:02:19.689+03:00  INFO 13360 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-20T20:02:19.691+03:00  INFO 13360 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-20T20:02:19.693+03:00  INFO 13360 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
