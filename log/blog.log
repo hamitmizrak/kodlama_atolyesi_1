@@ -1,0 +1,46 @@
+2023-07-20T19:29:23.850+03:00  INFO 12780 --- [main] c.h.KodlamaAtolyesi1Application          : Starting KodlamaAtolyesi1Application using Java 17.0.5 with PID 12780 (D:\spring\kodlama_atolyesi_1\target\classes started by 90553 in D:\spring\kodlama_atolyesi_1)
+2023-07-20T19:29:23.853+03:00  INFO 12780 --- [main] c.h.KodlamaAtolyesi1Application          : The following 1 profile is active: "frontend"
+2023-07-20T19:29:24.805+03:00  INFO 12780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-20T19:29:24.818+03:00  INFO 12780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2023-07-20T19:29:25.296+03:00  INFO 12780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2222 (http)
+2023-07-20T19:29:25.306+03:00  INFO 12780 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-20T19:29:25.307+03:00  INFO 12780 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-20T19:29:25.415+03:00  INFO 12780 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-20T19:29:25.415+03:00  INFO 12780 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1509 ms
+2023-07-20T19:29:25.551+03:00  INFO 12780 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-20T19:29:25.803+03:00  INFO 12780 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-07-20T19:29:25.804+03:00  INFO 12780 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-20T19:29:25.812+03:00  INFO 12780 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-07-20T19:29:25.849+03:00 DEBUG 12780 --- [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2023-07-20T19:29:25.849+03:00 DEBUG 12780 --- [main] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-07-20T19:29:26.187+03:00  INFO 12780 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-20T19:29:26.471+03:00  INFO 12780 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-20T19:29:26.591+03:00  WARN 12780 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-20T19:29:26.708+03:00 DEBUG 12780 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-07-20T19:29:26.740+03:00  INFO 12780 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-20T19:29:26.796+03:00 DEBUG 12780 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2023-07-20T19:29:27.195+03:00 DEBUG 12780 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-07-20T19:29:27.205+03:00 DEBUG 12780 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-07-20T19:29:27.643+03:00  INFO 12780 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@24ce5d4c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@24fc9aa5, org.springframework.security.web.context.SecurityContextHolderFilter@45b2d17b, org.springframework.security.web.header.HeaderWriterFilter@5e25085, org.springframework.web.filter.CorsFilter@7369208e, org.springframework.security.web.csrf.CsrfFilter@7fb1820d, org.springframework.security.web.authentication.logout.LogoutFilter@1f229c40, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@63c163e1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4529048e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7ba623d1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@57fae911, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15afebcc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1db5de29, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d5435d4, org.springframework.security.web.access.ExceptionTranslationFilter@3d01b609, org.springframework.security.web.access.intercept.AuthorizationFilter@466cca41]
+2023-07-20T19:29:27.739+03:00  WARN 12780 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-07-20T19:29:27.742+03:00  INFO 12780 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-20T19:29:27.747+03:00  INFO 12780 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-20T19:29:27.756+03:00  INFO 12780 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-20T19:29:27.757+03:00  INFO 12780 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-20T19:29:27.774+03:00  INFO 12780 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-20T19:29:27.790+03:00 ERROR 12780 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 2222 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 2222 or configure this application to listen on another port.
+
