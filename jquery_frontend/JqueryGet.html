@@ -28,8 +28,10 @@
                 $.get(GET_URL, function (data, status) {
                     if (status == "success") {
                         console.log(data);
+
                         let data1 = `${data[0].id}  =>${data[0].username} =>${data[0].emailAddress}`;
                         console.log(data1);
+                        
                         // DOM
                         //document.getElementById("my_get_id").innerHTML=data1;
 

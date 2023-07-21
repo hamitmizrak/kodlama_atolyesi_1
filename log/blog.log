@@ -269,3 +269,615 @@
 2023-07-21T18:28:29.708+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
 2023-07-21T18:28:29.708+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
 2023-07-21T18:28:29.709+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:39:28.062+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:39:28.062+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:39:28.068+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:39:28.068+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:39:28.070+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:40:03.408+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:40:03.408+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:40:03.412+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:40:03.413+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:40:03.416+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:40:45.659+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:40:45.659+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:40:45.662+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:40:45.663+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:40:45.664+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:41:01.951+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/register/v1/api/create", parameters={}
+2023-07-21T18:41:01.951+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerCreate(RegisterDto)
+2023-07-21T18:41:01.952+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [RegisterDto(id=0, username=Hamit Mızrak2, emailAddress=hamitmizrak2@gmail.com, password=Hm1234562@., (truncated)...]
+2023-07-21T18:41:01.956+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:41:01.957+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [RegisterDto(id=2, username=Hamit Mızrak2, emailAddress=hamitmizrak2@gmail.com, password=Hm1234562@., (truncated)...]
+2023-07-21T18:41:01.958+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:41:10.880+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/register/v1/api/create", parameters={}
+2023-07-21T18:41:10.880+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerCreate(RegisterDto)
+2023-07-21T18:41:10.881+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [RegisterDto(id=0, username=Hamit Mızrak3, emailAddress=hamitmizrak3@gmail.com, password=Hm1234563@., (truncated)...]
+2023-07-21T18:41:10.883+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:41:10.884+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [RegisterDto(id=3, username=Hamit Mızrak3, emailAddress=hamitmizrak3@gmail.com, password=Hm1234563@., (truncated)...]
+2023-07-21T18:41:10.885+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:41:19.982+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:41:19.983+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:41:19.993+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:41:19.994+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:41:19.996+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:41:30.034+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:41:30.035+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:41:30.041+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:41:30.042+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:41:30.043+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:41:34.148+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:41:34.148+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:41:34.154+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:41:34.155+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:41:34.158+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:41:38.735+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:41:38.736+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:41:38.744+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:41:38.745+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:41:38.748+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:41:46.786+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:41:46.787+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:41:46.792+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:41:46.792+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:41:46.794+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:41:53.025+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:41:53.026+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:41:53.037+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:41:53.037+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:41:53.040+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:42:00.018+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:42:00.018+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:42:00.022+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:42:00.022+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:42:00.024+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:42:05.685+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:42:05.685+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:42:05.689+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:42:05.689+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:42:05.690+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:42:07.165+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:42:07.165+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:42:07.171+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:42:07.171+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:42:07.172+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:42:14.053+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:42:14.053+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:42:14.056+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:42:14.057+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:42:14.058+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:42:15.276+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:42:15.277+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:42:15.279+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:42:15.280+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:42:15.281+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:42:18.597+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:42:18.598+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:42:18.606+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:42:18.607+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:42:18.608+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:42:22.354+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:42:22.355+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:42:22.357+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:42:22.358+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:42:22.358+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:42:31.427+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:42:31.428+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:42:31.431+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:42:31.431+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:42:31.432+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:43:25.589+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:43:25.590+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:43:25.593+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:43:25.594+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:43:25.595+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:43:30.759+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:43:30.760+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:43:30.762+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:43:30.763+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:43:30.764+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:43:33.133+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:43:33.134+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:43:33.138+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:43:33.138+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:43:33.138+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:43:37.246+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:43:37.247+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:43:37.249+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:43:37.250+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:43:37.251+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:43:48.485+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:43:48.485+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:43:48.490+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:43:48.491+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:43:48.493+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:43:53.131+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:43:53.131+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:43:53.136+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:43:53.136+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:43:53.137+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:44:01.911+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:44:01.911+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:44:01.917+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:44:01.917+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:44:01.918+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:44:11.269+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:44:11.270+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:44:11.275+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:44:11.275+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:44:11.277+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:44:27.551+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:44:27.552+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:44:27.557+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:44:27.557+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:44:27.558+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:44:34.645+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:44:34.645+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:44:34.649+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:44:34.649+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:44:34.650+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:44:36.897+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:44:36.898+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:44:36.903+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:44:36.903+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:44:36.906+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:44:41.798+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:44:41.799+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:44:41.803+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:44:41.803+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:44:41.804+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:44:46.776+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:44:46.777+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:44:46.781+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:44:46.782+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:44:46.784+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:44:50.391+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:44:50.392+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:44:50.397+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:44:50.397+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:44:50.398+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:44:55.748+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:44:55.748+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:44:55.752+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:44:55.752+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:44:55.754+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:45:01.275+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:45:01.275+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:45:01.279+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:45:01.279+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:45:01.280+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:45:04.372+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:45:04.373+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:45:04.376+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:45:04.376+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:45:04.377+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:45:12.291+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:45:12.291+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:45:12.296+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:45:12.296+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:45:12.297+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:45:13.749+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:45:13.749+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:45:13.753+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:45:13.753+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:45:13.754+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:45:19.197+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:45:19.197+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:45:19.202+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:45:19.202+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:45:19.204+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:45:21.407+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:45:21.407+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:45:21.410+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:45:21.410+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:45:21.411+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:45:25.546+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:45:25.547+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:45:25.551+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:45:25.552+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:45:25.553+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:45:34.511+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:45:34.512+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:45:34.515+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:45:34.515+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:45:34.518+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:45:49.247+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:45:49.248+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:45:49.252+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:45:49.252+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:45:49.253+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:45:50.688+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:45:50.688+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:45:50.691+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:45:50.691+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:45:50.691+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:45:58.645+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:45:58.646+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:45:58.649+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:45:58.649+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:45:58.650+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:46:07.014+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:46:07.014+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:46:07.017+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:46:07.018+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:46:07.019+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:46:11.423+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:46:11.423+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:46:11.429+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:46:11.429+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:46:11.430+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:46:21.947+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:46:21.948+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:46:21.952+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:46:21.952+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:46:21.954+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:46:24.409+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:46:24.409+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:46:24.411+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:46:24.411+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:46:24.412+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:46:29.236+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:46:29.237+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:46:29.239+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:46:29.239+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:46:29.239+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:46:32.132+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:46:32.132+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:46:32.140+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:46:32.140+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:46:32.142+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:46:40.342+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:46:40.342+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:46:40.347+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:46:40.348+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:46:40.349+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:46:41.369+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:46:41.369+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:46:41.372+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:46:41.372+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:46:41.374+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:46:51.335+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:46:51.335+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:46:51.339+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:46:51.339+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:46:51.339+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:47:02.421+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:47:02.422+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:47:02.429+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:47:02.430+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:47:02.431+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:47:08.157+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:47:08.157+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:47:08.160+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:47:08.160+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:47:08.161+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:47:13.294+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:47:13.295+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:47:13.299+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:47:13.299+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:47:13.301+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:47:14.873+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:47:14.873+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:47:14.879+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:47:14.879+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:47:14.880+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:47:16.473+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:47:16.473+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:47:16.475+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:47:16.475+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:47:16.476+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:47:21.632+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:47:21.633+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:47:21.638+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:47:21.638+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:47:21.639+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:47:24.019+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:47:24.020+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:47:24.026+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:47:24.027+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:47:24.028+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:47:25.882+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:47:25.882+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:47:25.886+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:47:25.886+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:47:25.887+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:47:30.752+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:47:30.752+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:47:30.755+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:47:30.755+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:47:30.755+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:47:39.613+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:47:39.613+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:47:39.618+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:47:39.618+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:47:39.619+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:47:47.714+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:47:47.715+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:47:47.719+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:47:47.719+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:47:47.720+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:47:49.830+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:47:49.830+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:47:49.834+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:47:49.834+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:47:49.836+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:47:53.316+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:47:53.317+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:47:53.319+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:47:53.319+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:47:53.320+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:47:58.486+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:47:58.486+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:47:58.489+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:47:58.489+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:47:58.490+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:48:01.263+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:48:01.263+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:48:01.267+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:48:01.267+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:48:01.268+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:48:04.876+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:48:04.877+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:48:04.880+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:48:04.880+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:48:04.880+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:48:08.866+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:48:08.866+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:48:08.869+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:48:08.869+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:48:08.870+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:48:16.429+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:48:16.429+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:48:16.433+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:48:16.433+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:48:16.434+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:48:20.460+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:48:20.460+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:48:20.465+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:48:20.465+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:48:20.466+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:48:30.987+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:48:30.987+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:48:30.990+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:48:30.991+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:48:30.992+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:48:49.749+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:48:49.749+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:48:49.753+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:48:49.754+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:48:49.756+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:48:55.443+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:48:55.443+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:48:55.445+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:48:55.446+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:48:55.446+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:48:57.608+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:48:57.609+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:48:57.611+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:48:57.612+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:48:57.612+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:49:00.477+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:49:00.477+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:49:00.481+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:49:00.482+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:49:00.482+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:49:03.805+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:49:03.805+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:49:03.808+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:49:03.808+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:49:03.809+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:49:07.823+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:49:07.823+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:49:07.825+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:49:07.825+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:49:07.826+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:49:21.975+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:49:21.976+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:49:21.980+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:49:21.980+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:49:21.981+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:49:24.777+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:49:24.778+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:49:24.780+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:49:24.780+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:49:24.781+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:49:26.669+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:49:26.669+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:49:26.672+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:49:26.672+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:49:26.673+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:49:27.755+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:49:27.755+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:49:27.757+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:49:27.757+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:49:27.758+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:49:30.715+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:49:30.716+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:49:30.718+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:49:30.718+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:49:30.718+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:49:39.415+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:49:39.415+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:49:39.419+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:49:39.419+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:49:39.420+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:49:40.463+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:49:40.464+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:49:40.469+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:49:40.470+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:49:40.471+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:49:44.815+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:49:44.815+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:49:44.820+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:49:44.820+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:49:44.822+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:49:50.252+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:49:50.252+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:49:50.256+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:49:50.257+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:49:50.258+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:49:52.557+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:49:52.557+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:49:52.559+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:49:52.559+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:49:52.560+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:49:56.256+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:49:56.257+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:49:56.260+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:49:56.260+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:49:56.261+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:50:01.401+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:50:01.402+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:50:01.404+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:50:01.404+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:50:01.405+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:50:07.452+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:50:07.452+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:50:07.457+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:50:07.457+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:50:07.458+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:50:10.110+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:50:10.110+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:50:10.112+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:50:10.113+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:50:10.113+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:50:11.610+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:50:11.610+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:50:11.613+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:50:11.613+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:50:11.614+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:50:13.057+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:50:13.057+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:50:13.059+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:50:13.059+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:50:13.060+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:50:15.133+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:50:15.133+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:50:15.139+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:50:15.140+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:50:15.140+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:50:16.990+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:50:16.991+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:50:16.994+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:50:16.994+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:50:16.994+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:50:30.325+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:50:30.326+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:50:30.327+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:50:30.328+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:50:30.328+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:50:31.765+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:50:31.765+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:50:31.767+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:50:31.767+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:50:31.768+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:50:37.489+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:50:37.490+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:50:37.492+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:50:37.492+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:50:37.493+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:50:39.605+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:50:39.605+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:50:39.607+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:50:39.607+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:50:39.609+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:50:41.188+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:50:41.188+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:50:41.190+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:50:41.190+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:50:41.191+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:50:45.797+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:50:45.797+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:50:45.800+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:50:45.800+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:50:45.802+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:50:50.972+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:50:50.973+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:50:50.979+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:50:50.979+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:50:50.979+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:50:52.051+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:50:52.051+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:50:52.053+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:50:52.053+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:50:52.053+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:50:53.448+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:50:53.449+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:50:53.451+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:50:53.451+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:50:53.452+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:50:57.850+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:50:57.851+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:50:57.852+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:50:57.852+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:50:57.853+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:51:10.352+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:51:10.353+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:51:10.358+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:51:10.358+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:51:10.358+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:51:13.478+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:51:13.479+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:51:13.481+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:51:13.481+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:51:13.482+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:51:16.502+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:51:16.502+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:51:16.509+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:51:16.510+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:51:16.510+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:51:26.026+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:51:26.027+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:51:26.030+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:51:26.030+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:51:26.031+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:51:27.247+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:51:27.247+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:51:27.249+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:51:27.250+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:51:27.250+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:51:33.353+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:51:33.353+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:51:33.356+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:51:33.356+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:51:33.356+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:51:36.038+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:51:36.038+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:51:36.040+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:51:36.040+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:51:36.041+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:51:37.357+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:51:37.357+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:51:37.359+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:51:37.359+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:51:37.360+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:51:42.054+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:51:42.054+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:51:42.057+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:51:42.057+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:51:42.058+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:51:45.935+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:51:45.936+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:51:45.938+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:51:45.938+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:51:45.939+03:00 DEBUG 10896 --- [http-nio-4444-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:51:54.730+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:51:54.731+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:51:54.735+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:51:54.735+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:51:54.736+03:00 DEBUG 10896 --- [http-nio-4444-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:51:56.620+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:51:56.620+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:51:56.625+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:51:56.626+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:51:56.627+03:00 DEBUG 10896 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:52:11.397+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:52:11.397+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:52:11.400+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:52:11.400+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:52:11.401+03:00 DEBUG 10896 --- [http-nio-4444-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:52:27.330+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:52:27.331+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:52:27.336+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:52:27.337+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:52:27.338+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
