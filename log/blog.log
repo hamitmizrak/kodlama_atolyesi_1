@@ -196,3 +196,76 @@
 2023-07-21T18:27:18.202+03:00 DEBUG 18912 --- [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
 2023-07-21T18:27:18.202+03:00 DEBUG 18912 --- [main] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
 2023-07-21T18:27:18.516+03:00  INFO 18912 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-21T18:27:26.862+03:00  INFO 10896 --- [main] c.h.KodlamaAtolyesi1Application          : Starting KodlamaAtolyesi1Application using Java 17.0.5 with PID 10896 (D:\spring\kodlama_atolyesi_1\target\classes started by 90553 in D:\spring\kodlama_atolyesi_1)
+2023-07-21T18:27:26.864+03:00  INFO 10896 --- [main] c.h.KodlamaAtolyesi1Application          : The following 1 profile is active: "frontend"
+2023-07-21T18:27:27.685+03:00  INFO 10896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-21T18:27:27.725+03:00  INFO 10896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2023-07-21T18:27:28.107+03:00  INFO 10896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2023-07-21T18:27:28.113+03:00  INFO 10896 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-21T18:27:28.113+03:00  INFO 10896 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-21T18:27:28.200+03:00  INFO 10896 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-21T18:27:28.200+03:00  INFO 10896 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1291 ms
+2023-07-21T18:27:28.263+03:00  INFO 10896 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-21T18:27:28.456+03:00  INFO 10896 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-07-21T18:27:28.458+03:00  INFO 10896 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-21T18:27:28.465+03:00  INFO 10896 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-07-21T18:27:28.495+03:00 DEBUG 10896 --- [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2023-07-21T18:27:28.496+03:00 DEBUG 10896 --- [main] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-07-21T18:27:28.790+03:00  INFO 10896 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-21T18:27:29.444+03:00  INFO 10896 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-21T18:27:29.807+03:00  WARN 10896 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-21T18:27:29.907+03:00 DEBUG 10896 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-07-21T18:27:29.930+03:00  INFO 10896 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-21T18:27:29.981+03:00 DEBUG 10896 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 10 mappings in 'requestMappingHandlerMapping'
+2023-07-21T18:27:30.360+03:00 DEBUG 10896 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-07-21T18:27:30.369+03:00 DEBUG 10896 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-07-21T18:27:30.851+03:00  INFO 10896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2023-07-21T18:27:30.915+03:00  INFO 10896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5555 (http)
+2023-07-21T18:27:30.917+03:00  INFO 10896 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-21T18:27:30.918+03:00  INFO 10896 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-21T18:27:30.938+03:00  INFO 10896 --- [main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-07-21T18:27:30.938+03:00  INFO 10896 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 85 ms
+2023-07-21T18:27:30.949+03:00  INFO 10896 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/admin'
+2023-07-21T18:27:30.968+03:00 DEBUG 10896 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 1 mappings in 'requestMappingHandlerMapping'
+2023-07-21T18:27:31.231+03:00 DEBUG 10896 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-07-21T18:27:31.237+03:00 DEBUG 10896 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-07-21T18:27:31.241+03:00  INFO 10896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5555 (http) with context path ''
+2023-07-21T18:27:31.254+03:00  INFO 10896 --- [main] c.h.KodlamaAtolyesi1Application          : Started KodlamaAtolyesi1Application in 4.797 seconds (process running for 5.485)
+2023-07-21T18:27:45.594+03:00  INFO 10896 --- [http-nio-4444-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-21T18:27:45.595+03:00  INFO 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-21T18:27:45.595+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-07-21T18:27:45.595+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-07-21T18:27:45.595+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-07-21T18:27:45.596+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@736eb2a2
+2023-07-21T18:27:45.597+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7f36cd8f
+2023-07-21T18:27:45.597+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-07-21T18:27:45.597+03:00  INFO 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-21T18:27:45.623+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.html", parameters={}
+2023-07-21T18:27:45.635+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-07-21T18:27:45.660+03:00 DEBUG 10896 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2023-07-21T18:27:45.695+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-initializer.js", parameters={}
+2023-07-21T18:27:45.696+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-07-21T18:27:45.739+03:00 DEBUG 10896 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:27:45.872+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs/swagger-config", parameters={}
+2023-07-21T18:27:45.876+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2023-07-21T18:27:45.895+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2023-07-21T18:27:45.897+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:4444/swagger-ui/oauth2-re (truncated)...]
+2023-07-21T18:27:45.953+03:00 DEBUG 10896 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:27:46.037+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs/springdocDefault", parameters={}
+2023-07-21T18:27:46.037+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.MultipleOpenApiWebMvcResource#openapiJson(HttpServletRequest, String, String, Locale)
+2023-07-21T18:27:46.109+03:00  WARN 10896 --- [http-nio-4444-exec-6] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.hamitmizrak.controller.api.RegisterApiImpl
+2023-07-21T18:27:46.240+03:00  INFO 10896 --- [http-nio-4444-exec-6] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 188 ms
+2023-07-21T18:27:46.262+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+2023-07-21T18:27:46.263+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"openapi":"3.0.1","info":{"title":"OpenAPI definition","version":"v0"},"servers":[{"url":"http://lo (truncated)..."]
+2023-07-21T18:27:46.264+03:00 DEBUG 10896 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:28:20.407+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/register/v1/api/create", parameters={}
+2023-07-21T18:28:20.407+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerCreate(RegisterDto)
+2023-07-21T18:28:20.425+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [RegisterDto(id=0, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., cr (truncated)...]
+2023-07-21T18:28:20.563+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:28:20.563+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., cr (truncated)...]
+2023-07-21T18:28:20.565+03:00 DEBUG 10896 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-07-21T18:28:29.613+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/register/v1/api/list", parameters={}
+2023-07-21T18:28:29.613+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hamitmizrak.controller.api.RegisterApiImpl#registerList()
+2023-07-21T18:28:29.708+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-07-21T18:28:29.708+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[RegisterDto(id=1, username=Hamit Mızrak, emailAddress=hamitmizrak@gmail.com, password=Hm123456@., c (truncated)...]
+2023-07-21T18:28:29.709+03:00 DEBUG 10896 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK

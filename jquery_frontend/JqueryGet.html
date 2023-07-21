@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <p class="text-center display-4">GET</p>
+
+    <table class="table table-hover table-striped" id="table_id">
+        <div id="my_get_id">BOŞ</div>
+        <script>
+            $(document).ready(function () {
+                const GET_URL = "http://localhost:4444/register/v1/api/list";
+
+                $.get(GET_URL, function (data, status) {
+                    if (status == "success") {
+                        console.log(data);
+                        let data1 = `${data[0].id}  =>${data[0].username} =>${data[0].emailAddress}`;
+                        console.log(data1);
+                        // DOM
+                        //document.getElementById("my_get_id").innerHTML=data1;
+
+                        // JQUERY
+                        $("#my_get_id").html(data1);
+                        console.log(status);
+
+                        // FUNCTION LIST
+                        myGetDataList(data);
+                    }
+                }); //end $.get
+
+                const myGetDataList = (data) => {
+                    let tableRow = `
+                        <tr>
+                            <th>ID</th>
+                            <th>USERSNAME</th>
+                            <th>EMAIL</th>
+                            <th>PASSWORD</th>
+                            <th>CREATED DATE</th>
+                        </tr>
+                    `; //end tableRow
+                    for (let temp of data) {
+                        console.log(temp);
+                        tableRow +=
+                            `
+                    <tr>
+                        <td>${temp.id}</td>
+                        <td>${temp.username}</td>
+                        <td>${temp.password}</td>
+                        <td>${temp.emailAddress}</td>
+                        <td>${temp.createdDate}</td>
+                    </tr> `;
+                    } //end for
+                    document.getElementById("table_id").innerHTML=tableRow;
+                }
+            })
+        </script>
+    </table>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
