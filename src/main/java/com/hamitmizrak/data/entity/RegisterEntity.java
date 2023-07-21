@@ -1,11 +1,22 @@
 package com.hamitmizrak.data.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
 
 import java.io.Serializable;
 import java.util.Date;
 
+// LOMBOK
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+
+// ENTITY
 @Entity
 @Table(name = "register")
 public class RegisterEntity  implements Serializable {

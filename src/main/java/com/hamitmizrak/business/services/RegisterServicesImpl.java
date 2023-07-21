@@ -7,7 +7,9 @@ import com.hamitmizrak.data.repository.IRegisterRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 import java.util.List;
 
 // LOMBOK
@@ -46,16 +48,26 @@ public class RegisterServicesImpl implements IRegisterServices{
 
     // CREATE
     @Override
+    @Transactional
     public RegisterDto registerCreate(RegisterDto registerDto) {
-        iRegisterRepository.save(DtoToEntity(registerDto));
+        if(registerDto!=null){
+            RegisterEntity registerEntity=DtoToEntity(registerDto);
+           RegisterEntity saveEntity= iRegisterRepository.save(registerEntity);
+            registerDto.setId(saveEntity.getId());
+        }
         return registerDto;
     }
 
     // LIST
     @Override
     public List<RegisterDto> registerList() {
-     Iterable<RegisterEntity> list=   iRegisterRepository.findAll();
+     Iterable<RegisterEntity> registerEntitiesList=   iRegisterRepository.findAll();
+     List<RegisterDto> registerDtoList=new ArrayList<>();
+     for(RegisterEntity entity: registerEntitiesList){
+         RegisterDto registerDto=EntityToDto(entity);
+         registerDtoList.add(registerDto);
+     }
      // Iterable To List
-      return null;
+      return registerDtoList;
     }
 }
